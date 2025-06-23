@@ -1,6 +1,4 @@
 package.json
 package-lock.json
-src/
 tsconfig.json
 node_modules/
-dist/
