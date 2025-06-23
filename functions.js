@@ -9,3 +9,7 @@ function getUpper(val) {
 var res = add(5);
 console.log(getUpper("hi"));
 console.log(res);
+// function signUpUser(name,email,password){}
+// signUpUser(1,2,3)
+var loginUser = function (email, name, isPaid) { };
+loginUser("shan@gmail.com", "shan", true);

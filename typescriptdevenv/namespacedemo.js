@@ -1,3 +1,4 @@
+"use strict";
 var Utility;
 (function (Utility) {
     var Payment;

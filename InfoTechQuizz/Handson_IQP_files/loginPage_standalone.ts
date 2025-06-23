@@ -1,13 +1,9 @@
-// UNCHANGED: Import the interface from submitModule for type safety
-import {clickResponse} from "./submitModule";
-
-// UNCHANGED: Login class that implements the clickResponse interface
-class login implements clickResponse
-{
-    submit():void
-    {
+// STANDALONE VERSION FOR BROWSER USE - Interface definition included inline
+// UNCHANGED: Login class that implements basic form submission
+class login {
+    submit(): void {
         // COMPLETED: Write the code to perform the validation and accordingly navigate to QuizPage or 
-		// render validation error messages.
+        // render validation error messages.
         
         // ADDED: Get user input values from the form elements
         // Type casting to HTMLInputElement to access .value property safely
@@ -45,21 +41,16 @@ class login implements clickResponse
             window.location.href = "QuizPage.html";
         }
     }
-
-    
-
 }
 
 // UNCHANGED: Namespace to organize and encapsulate login object
-namespace objectCreate
-{
+namespace objectCreate {
     // UNCHANGED: Export login instance for global access
-    export var loginObject=new login();
+    export var loginObject = new login();
 }
 
 // UNCHANGED: Global function called from HTML onclick event
-function invokeSubmit()
-{
+function invokeSubmitLogin() {
     // UNCHANGED: Delegate to the login object's submit method
     objectCreate.loginObject.submit();
 }

@@ -1,6 +1,6 @@
 "use strict";
 // hello.ts
-const greet = (name) => {
-    console.log(`Hello, ${name}!`);
+var greet = function (name) {
+    console.log("Hello, ".concat(name, "!"));
 };
 greet('TypeScript hello bud');

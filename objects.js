@@ -1,3 +1,4 @@
+"use strict";
 var User = {
     name: "shehin",
     email: "shehin@gmail.com",
@@ -9,10 +10,10 @@ function createUser(name, email, isPaid) {
 function createCourse() {
     return { name: "reactJS", price: 500 };
 }
-function user(user) {
+function user5(user) {
     return { name: " ", email: "", isActive: true };
 }
-user({ name: "", email: "", isActive: true });
+user5({ name: "", email: "", isActive: true });
 // function createUser1(U:User1){}
 var myUser = {
     _id: "123",
@@ -21,4 +22,3 @@ var myUser = {
     isActive: false
 };
 myUser.email = "haboon @gmail.com";
-//myUser._id = "22" //error occured

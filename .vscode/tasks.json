@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build TypeScript Quiz Project",
+			"type": "shell",
+			"command": "tsc",
+			"group": "build",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"isBackground": false
+		}
+	]
+}

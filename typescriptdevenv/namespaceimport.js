@@ -1,3 +1,4 @@
+"use strict";
 /// <reference path="./namespacedemo.ts" />
 var util = Utility.Payment;
 var paymentAmount = util.CalculateAmount(1255, 6);

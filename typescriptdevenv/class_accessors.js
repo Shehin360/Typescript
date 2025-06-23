@@ -1,3 +1,4 @@
+"use strict";
 var passcode = "secret passcode";
 var Product = /** @class */ (function () {
     function Product() {
