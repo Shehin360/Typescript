@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IQP</title>
+        <script src="./js/login.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <style>
+	 .navbar-inverse {
+   background-color:#005580;
+  background-image: none;
+  background-repeat: no-repeat;
+	color:#ffffff;
+ }
+ .navbar-inverse .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+	
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	 text-decoration: none;
+    color: #ffffff;
+}
+	 </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="homePage.html">IQP</a>
+            </div>
+        </nav>
+ <div class="container" style="width:70%">
+  <h2 align="center">Infotech Quiz Portal(IQP)</h2>
+ </div>
+
+       <div class="row" style="padding-top:20px;">
+<div class="col-sm-4">  </div>
+<div class="container col-sm-4">
+  <div class="panel panel-primary">
+    <div class="panel-heading text-center" ><h3>Login</h3></div>
+    <div class="panel-body">
+<form>
+	<div class="form-group">
+		<label for="usr">UserName</label>
+		<input type="text" id="name" class="form-control">
+	</div>
+	<div class="form-group">
+	<label for="pwd">Password</label>
+	<input type="password" class="form-control" id="password">
+    </div>
+	<div class="form-group">
+                        <div id="nameError" class="text-danger"></div>
+                        </div>
+                        <div class="form-group">
+                        <div id="passError" class="text-danger"></div>
+                        </div>
+                        <br/>
+                        <div class="form-group text-center">
+                        <input type="button" class="btn btn-block btn-primary" value="Lets get started!" onclick="invokeSubmit()" />
+                        </div>
+						</form>
+
+	</div>
+  </div>
+ </div>
+</div>
+                
+    </body>
+
+</html>
