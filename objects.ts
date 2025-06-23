@@ -19,11 +19,11 @@ type User ={
     isActive: boolean;
 }
 
-function user(user:User ):User {
+function user5(user:User ):User {
     return {name:" ",email:"",isActive:true}
 }
 
-user({name:"",email:"",isActive:true})
+user5({name:"",email:"",isActive:true})
 
 type User1 = {
     readonly _id :string;
